@@ -23,13 +23,13 @@ The type of activity being performed, which is linked to the column ‘Activity 
 
 Subject (integer)
 
-- Each number identifies the subject who performed an activity.
-- 1-30
-- 
+Each number identifies the subject who performed an activity.
+1-30 values
+ 
 Activity No (numeric)
 
-- Each number acts as a class label for each activity name.
-- 1-6
+Each number acts as a class label for each activity name.
+1-6 values
 
 - tBodyAcc-mean()-X (numeric)
 - Mean value of axis signal for each subject by activity.
