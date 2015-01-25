@@ -10,9 +10,7 @@
 8.	A second tidy dataset was created, which took the average of each variable for each activity and each subject.
 
 ##Variables and descriptions
-Activity (factor)
-
-The type of activity being performed, which is linked to the column ‘Activity No’.
+- Activity (factor) The type of activity being performed, which is linked to the column ‘Activity No’.
 
 1.	LAYING 
 2.	SITTING
@@ -21,14 +19,12 @@ The type of activity being performed, which is linked to the column ‘Activity 
 5.	WALKING_DOWNSTAIRS
 6.	WALKING_UPSTAIRS
 
-###Subject (integer)
+- Subject (integer) Each number identifies the subject who performed an activity.
 
-Each number identifies the subject who performed an activity.
 1-30 values
  
-###Activity No (numeric)
+- Activity No (numeric) Each number acts as a class label for each activity name.
 
-Each number acts as a class label for each activity name.
 1-6 values
 
 - tBodyAcc-mean()-X (numeric) Mean value of axis signal for each subject by activity.
